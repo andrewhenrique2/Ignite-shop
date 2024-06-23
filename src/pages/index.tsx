@@ -1,17 +1,32 @@
 // pages/index.tsx
-import { styled } from "../styles";
+import Image from "next/image";
+import { HomeContainer, Product } from "../styles/pages/home";
+import camiseta1 from '../assets/1.png'
+import camiseta2 from '../assets/2.png'
+import camiseta3 from '../assets/3.png'
 
-const Button = styled('button', {
-  backgroundColor: '$green300',
-  padding: 10 ,
-  borderRadius: 10,
-})
+
+
 
 
 export default function Home() {
   return (
-    <Button >
-      <h1>Hello, Next.js!</h1>
-    </Button>
+    <HomeContainer>
+      <Product>
+       <Image src={camiseta1} width={520} height={480} alt=""/>
+       <footer>
+        <strong>Camise X</strong>
+        <span>R$ 79,90</span>
+       </footer>
+      </Product>
+
+      <Product>
+       <Image src={camiseta2} width={520} height={480} alt=""/>
+       <footer>
+        <strong>Camise X</strong>
+        <span>R$ 79,90</span>
+       </footer>
+      </Product>
+    </HomeContainer>
   );
 }
