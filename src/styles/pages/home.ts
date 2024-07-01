@@ -15,7 +15,6 @@ export const Product = styled('div', {
     cursor: 'pointer',
     position: 'relative',
     overflow: 'hidden',
- 
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -45,6 +44,7 @@ export const Product = styled('div', {
 
         strong: {
             fontSize: '$lg',
+            color: '$gray100',
         },
 
         span: {
