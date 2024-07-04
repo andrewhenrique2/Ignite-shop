@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite Shop 🛍️
 
-## Getting Started
+Ignite Shop é um projeto de e-commerce de camisetas desenvolvido com Next.js e Stripe. Este projeto faz parte do curso Ignite da Rocketseat.
+<br>
 
-First, run the development server:
+![image](https://github.com/andrewhenrique2/Ignite-shop/assets/103382295/c53fc9f4-8642-4275-8038-df8340fd0aad)
 
-```bash
+![iPhone-13-PRO-MAX-localhost (1)](https://github.com/andrewhenrique2/Ignite-shop/assets/103382295/0edbfde9-1d06-45ca-8c99-e996285677f3)
+
+<br>
+
+## Funcionalidades ✨
+🛒 Listagem de produtos com preços e imagens <br>
+🔍 Visualização detalhada de cada produto <br>
+➕ Adição de produtos ao carrinho <br>
+💳 Processo de pagamento integrado com Stripe <br>
+🎉 Redirecionamento para página de sucesso após a compra <br>
+📱 Design responsivo, adaptado para desktop e dispositivos móveis <br>
+## Tecnologias Utilizadas 🛠️ 
+⚛️ Next.js: Framework React para desenvolvimento de aplicações web. <br>
+💰 Stripe: Plataforma de pagamento para processar transações. <br>
+📝 TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript. <br> 
+💅 Styled-components: Biblioteca para estilização de componentes React. <br>
+🎡 Keen-slider: Biblioteca de sliders/carrosséis para React. <br>
+## Como Executar o Projeto 🚀
+Clone o repositório:<br>
+<br>
+bash
+Copiar código
+git clone https://github.com/seu-usuario/ignite-shop.git
+Navegue até o diretório do projeto:
+
+bash
+Copiar código
+cd ignite-shop
+Instale as dependências:
+
+bash
+<br>
+Copiar código
+<br>
+npm install
+<br>
+# ou
+yarn install
+Configure as variáveis de ambiente:
+
+Crie um arquivo .env.local na raiz do projeto e adicione suas chaves do Stripe e a URL do seu site:
+
+env
+<br>
+Copiar código
+<br>
+STRIPE_PUBLIC_KEY=pk_test_...
+<br>
+STRIPE_SECRET_KEY=sk_test_...
+<br>
+NEXT_URL=http://localhost:3000
+<br>
+Execute o projeto:
+
+bash
+Copiar código
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse o projeto em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Estrutura do Projeto 🗂️
+pages/: Contém as páginas da aplicação.
+components/: Contém os componentes reutilizáveis.
+styles/: Contém os estilos globais e os estilos dos componentes.
+lib/: Contém configurações e integrações de bibliotecas externas (ex: Stripe).
