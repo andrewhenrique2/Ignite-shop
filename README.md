@@ -2,7 +2,8 @@
 
 Ignite Shop é um projeto de e-commerce de camisetas desenvolvido com Next.js e Stripe. Este projeto faz parte do curso Ignite da Rocketseat.
 <br>
-
+- [Acesse em funcionamento](https://ignite-shop-cyan-five.vercel.app)
+  
 ![image](https://github.com/andrewhenrique2/Ignite-shop/assets/103382295/c53fc9f4-8642-4275-8038-df8340fd0aad)
 
 ![iPhone-13-PRO-MAX-localhost (1)](https://github.com/andrewhenrique2/Ignite-shop/assets/103382295/0edbfde9-1d06-45ca-8c99-e996285677f3)
