@@ -8,6 +8,11 @@ export const ProductContainer = styled('main', {
 
   maxWidth: 1180,
   margin: '0 auto',
+
+  '@media (max-width: 768px)': {
+    gridTemplateColumns: '1fr',
+    padding: '0 1rem',
+  }
 });
 
 export const ImageContainer = styled('div', {
@@ -67,6 +72,10 @@ export const ProductDetails = styled('div', {
 
     '&:not(:disabled):hover': {
       backgroundColor: '$green300',
+    },
+
+    '@media (max-width: 768px)': {
+      marginTop: '2rem', // Adiciona margem superior no mobile
     },
   },
 });
