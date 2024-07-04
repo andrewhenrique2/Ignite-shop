@@ -38,7 +38,7 @@ export default function Home({ products }: HomeProps) {
       </Head>
 
       <HomeContainer>
-        <ArrowContainer onClick={(e) => e.stopPropagation() || instanceRef.current?.prev()}>
+        <ArrowContainer onClick={() => instanceRef.current?.prev()}>
           <Arrow as={FiChevronLeft} />
         </ArrowContainer>
         <div ref={sliderRef} className="keen-slider">
@@ -54,7 +54,7 @@ export default function Home({ products }: HomeProps) {
             </Link>
           ))}
         </div>
-        <ArrowContainer onClick={(e) => e.stopPropagation() || instanceRef.current?.next()}>
+        <ArrowContainer onClick={() =>  instanceRef.current?.next()}>
           <Arrow as={FiChevronRight} />
         </ArrowContainer>
       </HomeContainer>
