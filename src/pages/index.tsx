@@ -21,7 +21,7 @@ interface Product {
 interface HomeProps {
   products: Product[];
 }
-// a
+
 export default function Home({ products }: HomeProps) {
 
   const [sliderRef, instanceRef] = useKeenSlider({
