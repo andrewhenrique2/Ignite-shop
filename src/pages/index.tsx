@@ -4,7 +4,7 @@ import Head from "next/head";
 import Stripe from "stripe";
 import Link from "next/link";
 import { useKeenSlider } from 'keen-slider/react'
-import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'; // Importando ícones de seta
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'; 
 
 import { stripe } from "../lib/stripe";
 import { HomeContainer, Product, ArrowContainer, Arrow } from "../styles/pages/home";
@@ -28,6 +28,14 @@ export default function Home({ products }: HomeProps) {
     slides: {
       perView: 3,
       spacing: 48,
+    },
+    breakpoints: {
+      '(max-width: 768px)': {
+        slides: {
+          perView: 1,
+          spacing: 16,
+        },
+      },
     },
   })
 
