@@ -5,7 +5,7 @@ import { SuccessContainer, ImageContainer } from "../styles/pages/success";
 import { GetServerSideProps } from "next";
 import { stripe } from "../lib/stripe";
 import Stripe from "stripe";
-import Image from "next/image";
+import Image from "next/image"; // Imagem NExt
 import Head from "next/head";
 
 interface SuccessProps {
