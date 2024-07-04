@@ -75,7 +75,7 @@ export const ProductDetails = styled('div', {
     },
 
     '@media (max-width: 768px)': {
-      marginTop: '2rem', // Adiciona margem superior no mobile
+      margin: '2.3rem', 
     },
   },
 });
