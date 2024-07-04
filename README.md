@@ -17,7 +17,6 @@ Ignite Shop é um projeto de e-commerce de camisetas desenvolvido com Next.js e 
 ## Funcionalidades ✨
 🛒 Listagem de produtos com preços e imagens <br>
 🔍 Visualização detalhada de cada produto <br>
-➕ Adição de produtos ao carrinho <br>
 💳 Processo de pagamento integrado com Stripe <br>
 🎉 Redirecionamento para página de sucesso após a compra <br>
 📱 Design responsivo, adaptado para desktop e dispositivos móveis <br>
