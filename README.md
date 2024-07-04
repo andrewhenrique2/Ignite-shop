@@ -24,7 +24,7 @@ Ignite Shop é um projeto de e-commerce de camisetas desenvolvido com Next.js e 
 ⚛️ Next.js: Framework React para desenvolvimento de aplicações web. <br>
 💰 Stripe: Plataforma de pagamento para processar transações. <br>
 📝 TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript. <br> 
-💅 Styled-components: Biblioteca para estilização de componentes React. <br>
+💅 stitches: Biblioteca para estilização. <br>
 🎡 Keen-slider: Biblioteca de sliders/carrosséis para React. <br>
 ## Como Executar o Projeto 🚀
 Clone o repositório:<br>
